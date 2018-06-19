@@ -84,7 +84,7 @@ To run the project , you've got many possibilities as :
   To run the project ; if you want to see the console activities , you can launch the file called "bot.py" into the Command Line Prompt with "sudo python bot.py"
   
 #### The Fourth Way to run the project :
-  To run the project ; if you want the project run automatically every hours :
+  To run the project ; if you want the project run automatically every 2 minutes :
   
   You can use 'CronTab' like this:
   
@@ -92,7 +92,7 @@ To run the project , you've got many possibilities as :
   sudo crontab -e
   ```
   ```
-  * 1 * * * root /home/pi/TwittBot-RANDOM/MyWork/Start_TwittBot.sh &> /dev/null  
+   */2 * * * * /home/pi/TwittBot-RANDOM/MyWork/Start_TwittBot.sh >/dev/null 2>&1
   ```
 
 OR YOU CAN USE : https://crontab-generator.org/
