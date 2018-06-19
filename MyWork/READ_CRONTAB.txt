@@ -1,0 +1,6 @@
+CRONTAB's USERS : 
+
+To make it works automaticly , and load the bot.py file every hours :
+
+>> sudo crontab -e
+>> 0 * * * * root /home/pi/TwittBot-RANDOM/MyWork/Start_TwittBot.sh &> /dev/null
