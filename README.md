@@ -92,7 +92,7 @@ To run the project , you've got many possibilities as :
   sudo crontab -e
   ```
   ```
-  0 * * * * root /home/pi/TwittBot-RANDOM/MyWork/Start_TwittBot.sh &> /dev/null  
+  * 1 * * * root /home/pi/TwittBot-RANDOM/MyWork/Start_TwittBot.sh &> /dev/null  
   ```
 
 OR YOU CAN USE : https://crontab-generator.org/
