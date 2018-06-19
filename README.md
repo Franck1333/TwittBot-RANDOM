@@ -95,6 +95,8 @@ To run the project , you've got many possibilities as :
   0 * * * * root /home/pi/TwittBot-RANDOM/MyWork/Start_TwittBot.sh &> /dev/null  
   ```
 
+OR YOU CAN USE : https://crontab-generator.org/
+
 ## The Folders and Files
 In this project , you will be able to see two main Directories:
 
